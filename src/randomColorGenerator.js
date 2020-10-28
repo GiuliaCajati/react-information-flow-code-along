@@ -8,3 +8,10 @@ export function getRandomColor() {
   }
   return color
 }
+
+
+export const newFunction = () => {
+  let newColor = getRandomColor()
+  console.log(newColor)
+  return(newColor)
+}
